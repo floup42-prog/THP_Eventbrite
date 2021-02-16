@@ -1,3 +1,5 @@
+<div class="form_container">
+
 <h1>Hello, <%= @user.email %></h1>
 
 </br>
@@ -8,7 +10,10 @@
 last_name : <%=@user.last_name%></br>
 email : <%=@user.email%></br>
 description : <%=@user.description%></br></br>
-<%= link_to "edit", 'http://localhost:3000//users/edit' %>
+
+<%= link_to "edit", edit_user_registration_path %>
+<%# sytaxe alternative edit %>
+<%# <%= link_to "edit", 'http://localhost:3000//users/edit'%>
 </p>
 
 </br>
@@ -22,5 +27,8 @@ description : <%=@user.description%></br></br>
     </li>
     <% end %>
 </ul>
+<img  src="https://cdn.discordapp.com/attachments/318828901931548682/811262023949615154/telechargement.gif" alt="This will display an animated GIF"  width=100% />
+
        
+</div>
 

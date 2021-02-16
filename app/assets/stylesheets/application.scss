@@ -21,8 +21,21 @@
 .container {
     margin: 5%;
     background-color: rgb(241, 241, 241);
+    box-shadow: 10px 10px 5px grey;
+  
+
 }
 
 h1{
     text-align: center;
+    text-shadow: 2px 2px 3px #000000;
+}
+
+h2{
+    text-shadow: 2px 2px 3px #000000;
+}
+
+.form_container{
+    margin: 0 auto;
+     width: 250px; 
 }
