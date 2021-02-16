@@ -1,7 +1,12 @@
 # README
 
-#heroku : https://evenbitebis.herokuapp.com/
+#heroku : https://gentle-mountain-57535.herokuapp.com/
 
+____________________________________
+        floup@gmail.com
+
+        bite42
+____________________________________        
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
