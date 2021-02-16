@@ -1,5 +1,20 @@
 <h1>Hello, <%= @user.email %></h1>
 
+</br>
+<h2>Your profil</h2>
+</br>
+
+<p>first_name : <%=@user.first_name%></br>
+last_name : <%=@user.last_name%></br>
+email : <%=@user.email%></br>
+description : <%=@user.description%></br></br>
+<%= link_to "edit", 'http://localhost:3000//users/edit' %>
+</p>
+
+</br>
+<h2>Your events</h2>
+</br>
+
 <ul>
     <% @events.each do |event|%>
     <li>
@@ -7,3 +22,5 @@
     </li>
     <% end %>
 </ul>
+       
+

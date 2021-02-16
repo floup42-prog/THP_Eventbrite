@@ -8,6 +8,10 @@ class UsersController < ApplicationController
 
   def show
     @events = @user.events
+    @user.first_name
+    @user.last_name
+    @user.email
+    @user.description
   end
 
   # def new
